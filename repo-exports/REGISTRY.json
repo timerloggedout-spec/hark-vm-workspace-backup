@@ -14,7 +14,18 @@
         "¬ failover-proven"
       ],
       "store": "provenance/ledger.jsonl",
-      "requests": "repo-exports/REQUESTS.jsonl"
+      "requests": "repo-exports/REQUESTS.jsonl",
+      "intake": {
+        "schema": "termux-monorepo:ops/mesh/REQUESTS-SCHEMA.md",
+        "workflow": "termux-monorepo:.github/workflows/mesh-request.yml",
+        "triggers": [
+          "workflow_dispatch",
+          "issues labeled mesh:request"
+        ],
+        "requests": "repo-exports/REQUESTS.jsonl",
+        "done": "repo-exports/DONE.jsonl",
+        "drain": "Hark cron 0f4c2bd2 every 6h :15 PT"
+      }
     }
   }
 }
