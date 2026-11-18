@@ -4,3 +4,5 @@ Hark sandbox export mirror (Muse #5549/#5550 pattern). Append-only: default bran
 - `repo-exports/REGISTRY.json`: v2 registry, section `hark`.
 - `repo-exports/REQUESTS.jsonl`: request queue (append-only).
 - `provenance/ledger.jsonl`: one line per event {ts, kind, ref, sha256, payload(age, armored)}; plaintext index, encrypted payload.
+
+payloads age-encrypted; public by design (Muse pattern)
