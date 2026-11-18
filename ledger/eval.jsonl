@@ -1,1 +1,2 @@
 {"ts_utc": "2026-11-18T09:10:53Z", "ref": "master", "sha": "19cc018b", "passed": 39, "failed": 1, "failing": ["tests/test_lead_lag_cadence.py::LeadLagCadenceTests::test_sample_limit_outside_api_bounds_is_rejected_before_network"], "duration_s": 3.3}
+{"ts_utc": "2026-11-18T09:20:30Z", "ref": "master", "sha": "d115a9d4", "passed": 39, "failed": 1, "failing": ["tests/test_lead_lag_cadence.py::LeadLagCadenceTests::test_sample_limit_outside_api_bounds_is_rejected_before_network"], "duration_s": 2.5}
