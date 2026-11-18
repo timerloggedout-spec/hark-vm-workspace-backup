@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "sections": {
+    "hark": {
+      "node": "hark sandbox",
+      "provides": [
+        "provenance ledger",
+        "workspace manifest export"
+      ],
+      "transport": "GitHub API only",
+      "limits": [
+        "ephemeral",
+        "single node",
+        "¬ failover-proven"
+      ],
+      "store": "provenance/ledger.jsonl",
+      "requests": "repo-exports/REQUESTS.jsonl"
+    }
+  }
+}
