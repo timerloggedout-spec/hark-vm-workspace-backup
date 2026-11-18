@@ -1,11 +1,14 @@
 {
-  "version": 2,
+  "version": 3,
   "sections": {
     "hark": {
       "node": "hark sandbox",
       "provides": [
         "provenance ledger",
-        "workspace manifest export"
+        "workspace manifest export",
+        "compute: pytest eval suites",
+        "shadow lanes: matrice-validate, temporal-import-smoke, lead-lag-cadence",
+        "request-queue drain"
       ],
       "transport": "GitHub API only",
       "limits": [
@@ -24,7 +27,125 @@
         ],
         "requests": "repo-exports/REQUESTS.jsonl",
         "done": "repo-exports/DONE.jsonl",
-        "drain": "Hark cron 0f4c2bd2 every 6h :15 PT"
+        "drain": "Hark cron 0f4c2bd2 every 2h :15 PT (deterministic node_pass, silent on exit 0)"
+      },
+      "capacity": {
+        "cpu": 2,
+        "arch": "aarch64",
+        "ram_gib": 7.8
+      }
+    }
+  },
+  "surfaces": {
+    "_schema": "surface → {kind, role, status, quota{unit, limit, probe, source}}; status ∈ live|declared|blocked; quota.probe = how utilization is read",
+    "hark-vm": {
+      "kind": "agent VM",
+      "role": "eval ∧ shadow lanes ∧ critic/witness",
+      "status": "live",
+      "quota": {
+        "unit": "Hark daily ∧ monthly usage %",
+        "probe": "Hark billing_status",
+        "source": "Hark app"
+      }
+    },
+    "muse-vm": {
+      "kind": "agent VM",
+      "role": "BRR ∧ Temporal ∧ HindSight ∧ ML Ops (per #5549)",
+      "status": "declared",
+      "quota": {
+        "unit": "Muse usage",
+        "probe": "Muse-side; ¬ reachable from Hark",
+        "source": "#5549"
+      }
+    },
+    "github-actions": {
+      "kind": "CI runners",
+      "role": "scheduled ∧ dispatch workflows",
+      "status": "live",
+      "quota": {
+        "unit": "queued ∧ in_progress runs",
+        "probe": "api workflow_runs_list status=queued",
+        "source": "termux-monorepo"
+      }
+    },
+    "codespaces": {
+      "kind": "dev VM",
+      "role": "agent lane (docs/ops/CODESPACE-AGENT-LANE.md)",
+      "status": "live",
+      "quota": {
+        "unit": "core-hours ∧ GB-month",
+        "probe": "api user/codespaces",
+        "source": "PAT exp 2027-02-10"
+      }
+    },
+    "gcp-cloudshell": {
+      "kind": "shell VM",
+      "role": "lab-mesh executor",
+      "status": "live",
+      "quota": {
+        "unit": "hours/week",
+        "probe": "keepalive task c3b73e7c",
+        "source": "lab-mesh OAuth"
+      }
+    },
+    "supabase": {
+      "kind": "Postgres ∧ edge functions",
+      "role": "state store",
+      "status": "declared",
+      "quota": {
+        "unit": "DB size ∧ egress ∧ fn invocations",
+        "probe": "management API (key ∉ Hark vault)",
+        "source": "Owner"
+      }
+    },
+    "neon": {
+      "kind": "serverless Postgres",
+      "role": "state store",
+      "status": "declared",
+      "quota": {
+        "unit": "compute-hours ∧ storage",
+        "probe": "Neon API (key ∉ Hark vault)",
+        "source": "Owner"
+      }
+    },
+    "render": {
+      "kind": "web service",
+      "role": "termux-readme-extractor",
+      "status": "live",
+      "quota": {
+        "unit": "instance hours",
+        "probe": "api.render.com (key ∈ vault)",
+        "source": "vault"
+      }
+    },
+    "turso": {
+      "kind": "libSQL",
+      "role": "edge DB",
+      "status": "live",
+      "quota": {
+        "unit": "rows read ∧ storage",
+        "probe": "Turso API (key ∈ vault)",
+        "source": "vault"
+      }
+    },
+    "upstash": {
+      "kind": "Redis",
+      "role": "heartbeat ∧ cache",
+      "status": "live",
+      "quota": {
+        "unit": "commands/day",
+        "probe": "Upstash REST (token ∈ vault)",
+        "source": "vault"
+      }
+    },
+    "inference-free": {
+      "kind": "LLM APIs",
+      "role": "Groq ∧ SambaNova ∧ Ollama ∧ OpenRouter free ∧ Cohere trial",
+      "status": "live",
+      "quota": {
+        "unit": "req/min ∧ tokens/day",
+        "probe": "openrouter-bracket-snapshot (*/15) ∧ provider headers",
+        "source": "vault"
       }
     }
   }
