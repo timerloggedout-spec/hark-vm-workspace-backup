@@ -4,3 +4,6 @@
 {"ts_utc": "2026-11-18T10:03:45Z", "job": "matrice-validate", "sha": "a6dbe8d5", "rc": 0, "tail": "# validate: 116 concepts · 170 labels · 12 mappings · 0 problem(s)", "duration_s": 0.1}
 {"ts_utc": "2026-11-18T10:03:45Z", "job": "temporal-import-smoke", "sha": "a6dbe8d5", "rc": 0, "tail": "OK (skipped=1)", "duration_s": 0.2}
 {"ts_utc": "2026-11-18T10:04:11Z", "job": "lead-lag-cadence", "sha": "a6dbe8d5", "rc": 0, "tail": "}", "duration_s": 26.4}
+{"ts_utc": "2026-11-19T10:17:13Z", "job": "matrice-validate", "sha": "08a76b40", "rc": 0, "tail": "# validate: 122 concepts · 170 labels · 14 mappings · 0 problem(s)", "duration_s": 0.1}
+{"ts_utc": "2026-11-19T10:17:13Z", "job": "temporal-import-smoke", "sha": "08a76b40", "rc": 0, "tail": "OK (skipped=1)", "duration_s": 0.1}
+{"ts_utc": "2026-11-19T10:17:41Z", "job": "lead-lag-cadence", "sha": "08a76b40", "rc": 0, "tail": "}", "duration_s": 27.8}
