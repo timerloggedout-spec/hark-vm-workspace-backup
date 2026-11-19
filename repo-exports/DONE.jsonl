@@ -3,3 +3,7 @@
 {"id": "clf-nc-1-notation-compliance-20261119T090706Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
 {"id": "clf-tier1-classifiers-steward-20261119T090853Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
 {"id": "clf-live-2-prlane-tuning-20261119T090853Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
+{"id": "clf-nc-1-notation-compliance-20261119T090853Z", "ts_utc": "2026-11-19T11:16:55Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=1 ran=12 left=0 rows=50 data_sha=a75d0e4"}
+{"id": "clf-bf-1-backfill-methods-20261119T090853Z", "ts_utc": "2026-11-19T11:17:15Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=1 ran=12 left=0 rows=400 data_sha=5d4b0ff"}
+{"id": "clf-bf-1-backfill-methods-20261119T090857Z", "ts_utc": "2026-11-19T11:17:34Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=1 ran=12 left=0 rows=400 data_sha=94a5a6f"}
+{"id": "clf-live-2-prlane-tuning-20261119T090913Z", "ts_utc": "2026-11-19T11:18:00Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=1 ran=12 left=0 rows=945 data_sha=94a5a6f"}
