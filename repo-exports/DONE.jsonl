@@ -1,1 +1,5 @@
 {"id": "e91cc279-2e87-4cbc-b7d0-af46fbb2c40d", "ts_utc": "2026-11-18T09:20:26Z", "node": "hark-vm", "status": "done", "receipt": {"nproc": 2, "mem": "7945"}}
+{"id": "clf-tier1-classifiers-steward-20261119T090611Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
+{"id": "clf-nc-1-notation-compliance-20261119T090706Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
+{"id": "clf-tier1-classifiers-steward-20261119T090853Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
+{"id": "clf-live-2-prlane-tuning-20261119T090853Z", "ts_utc": "2026-11-19T10:17:10Z", "node": "hark-vm", "status": "rejected", "receipt": "kind clf-doe ∉ allowlist"}
