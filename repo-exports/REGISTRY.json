@@ -148,5 +148,11 @@
         "source": "vault"
       }
     }
-  }
+  },
+  "clf_labs": [
+    "timerloggedout-spec/clf-lab-tier1-classifiers-steward",
+    "timerloggedout-spec/clf-lab-live-2-prlane-tuning",
+    "timerloggedout-spec/clf-lab-nc-1-notation-compliance",
+    "timerloggedout-spec/clf-lab-bf-1-backfill-methods"
+  ]
 }
