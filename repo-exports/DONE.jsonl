@@ -18,3 +18,4 @@
 {"id": "clf-live-2-prlane-tuning-20261120T071445Z", "ts_utc": "2026-11-20T07:19:43Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=3 ran=12 left=0 rows=945 data_sha=7cc9fa7"}
 {"id": "clf-tier1-classifiers-steward-20261120T071649Z", "ts_utc": "2026-11-20T07:19:53Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=3 ran=12 left=0 rows=71 data_sha=163af77"}
 {"id": "clf-bf-1-backfill-methods-20261120T071701Z", "ts_utc": "2026-11-20T07:21:26Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=3 ran=12 left=0 rows=400 data_sha=163af77"}
+{"id": "clf-nc-1-notation-compliance-20261120T071902Z", "ts_utc": "2026-11-20T08:18:29Z", "node": "hark-vm", "status": "done", "receipt": "12 rows · ::notice title=run_doe::node=hark-vm gen=3 ran=12 left=0 rows=50 data_sha=8f2039a"}
