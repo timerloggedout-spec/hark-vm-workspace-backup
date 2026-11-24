@@ -797,3 +797,9 @@
 {"ts_utc": "2026-11-24T11:18:32Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "3 rows ·   warnings.warn(", "duration_s": 0}
 {"ts_utc": "2026-11-24T11:19:16Z", "job": "clf-doe:live-2-prlane-tuning", "sha": "-", "rc": 0, "tail": "9 rows ·   warnings.warn(", "duration_s": 0}
 {"ts_utc": "2026-11-24T11:19:26Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "3 rows ·   warnings.warn(", "duration_s": 0}
+{"ts_utc": "2026-11-24T12:17:01Z", "epoch": 1795522621, "job": "matrice-validate", "sha": "aec3dfd0", "rc": 0, "tail": "# validate: 122 concepts · 170 labels · 14 mappings · 0 problem(s)", "duration_s": 0.1}
+{"ts_utc": "2026-11-24T12:17:01Z", "epoch": 1795522621, "job": "temporal-import-smoke", "sha": "aec3dfd0", "rc": 0, "tail": "OK", "duration_s": 0.2}
+{"ts_utc": "2026-11-24T12:18:07Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "3 rows ·   warnings.warn(", "duration_s": 0}
+{"ts_utc": "2026-11-24T12:18:52Z", "job": "clf-doe:live-2-prlane-tuning", "sha": "-", "rc": 0, "tail": "9 rows ·   warnings.warn(", "duration_s": 0}
+{"ts_utc": "2026-11-24T12:19:02Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "3 rows · ::notice title=run_doe::node=hark-vm gen=11 ran=3 left=0 rows=50 data_sha=aec3dfd", "duration_s": 0}
+{"ts_utc": "2026-11-24T12:19:22Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "4 rows · ::notice title=run_doe::node=hark-vm gen=11 ran=4 left=0 rows=400 data_sha=aec3dfd", "duration_s": 0}
