@@ -47,3 +47,7 @@
 {"id": "clf-live-2-prlane-tuning-20261123T235341Z", "ts_utc": "2026-11-24T00:17:20Z", "node": "hark-vm", "status": "done", "receipt": "12 rows ·   warnings.warn("}
 {"id": "clf-tier1-classifiers-steward-20261123T235422Z", "ts_utc": "2026-11-24T00:17:30Z", "node": "hark-vm", "status": "done", "receipt": "9 rows ·   warnings.warn("}
 {"id": "clf-nc-1-notation-compliance-20261123T235542Z", "ts_utc": "2026-11-24T00:17:38Z", "node": "hark-vm", "status": "done", "receipt": "1 rows · ::notice title=run_doe::node=hark-vm gen=10 ran=1 left=0 rows=50 data_sha=7347666"}
+{"id": "clf-live-2-prlane-tuning-20261124T095350Z", "ts_utc": "2026-11-24T10:18:38Z", "node": "hark-vm", "status": "done", "receipt": "9 rows ·   warnings.warn("}
+{"id": "clf-bf-1-backfill-methods-20261124T095505Z", "ts_utc": "2026-11-24T10:18:59Z", "node": "hark-vm", "status": "done", "receipt": "4 rows · ::notice title=run_doe::node=hark-vm gen=11 ran=4 left=0 rows=400 data_sha=d484cbb"}
+{"id": "clf-tier1-classifiers-steward-20261124T095536Z", "ts_utc": "2026-11-24T10:19:06Z", "node": "hark-vm", "status": "done", "receipt": "3 rows ·   warnings.warn("}
+{"id": "clf-nc-1-notation-compliance-20261124T095652Z", "ts_utc": "2026-11-24T10:19:15Z", "node": "hark-vm", "status": "done", "receipt": "3 rows · ::notice title=run_doe::node=hark-vm gen=11 ran=3 left=0 rows=50 data_sha=94582a6"}
