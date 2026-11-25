@@ -1,1 +1,2 @@
 {"ts_utc": "2026-11-25T10:19:22Z", "node": "hark-vm", "line": "degraded hark-vm clf-doe live-2-prlane-tuning · rc=137 Killed · owner action: none", "refs": "commits f676bbf None 203e62d"}
+{"ts_utc": "2026-11-25T16:19:07Z", "node": "hark-vm", "line": "blocked hark-vm node pass · RuntimeError: Error: HTTP 502; the response above says why.\n · owner action: none", "refs": ""}
