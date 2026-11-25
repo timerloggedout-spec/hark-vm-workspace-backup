@@ -55,3 +55,7 @@
 {"id": "clf-bf-1-backfill-methods-20261124T222658Z", "ts_utc": "2026-11-24T23:18:20Z", "node": "hark-vm", "status": "done", "receipt": "4 rows · ::notice title=run_doe::node=hark-vm gen=12 ran=4 left=0 rows=400 data_sha=fa17eb8"}
 {"id": "clf-tier1-classifiers-steward-20261124T222659Z", "ts_utc": "2026-11-24T23:18:27Z", "node": "hark-vm", "status": "done", "receipt": "3 rows · ::notice title=run_doe::node=hark-vm gen=12 ran=3 left=0 rows=71 data_sha=2a4a899"}
 {"id": "clf-nc-1-notation-compliance-20261124T222835Z", "ts_utc": "2026-11-24T23:18:35Z", "node": "hark-vm", "status": "done", "receipt": "3 rows · ::notice title=run_doe::node=hark-vm gen=12 ran=3 left=0 rows=50 data_sha=2a4a899"}
+{"id": "clf-live-2-prlane-tuning-20261125T083136Z", "ts_utc": "2026-11-25T09:17:14Z", "node": "hark-vm", "status": "done", "receipt": "11 rows · ::notice title=run_doe::node=hark-vm gen=13 ran=11 left=0 rows=945 data_sha=9ce0e8b"}
+{"id": "clf-bf-1-backfill-methods-20261125T083322Z", "ts_utc": "2026-11-25T09:17:33Z", "node": "hark-vm", "status": "done", "receipt": "3 rows · ::notice title=run_doe::node=hark-vm gen=13 ran=3 left=0 rows=400 data_sha=9ce0e8b"}
+{"id": "clf-tier1-classifiers-steward-20261125T083514Z", "ts_utc": "2026-11-25T09:17:44Z", "node": "hark-vm", "status": "done", "receipt": "8 rows ·   warnings.warn("}
+{"id": "clf-nc-1-notation-compliance-20261125T083752Z", "ts_utc": "2026-11-25T09:17:54Z", "node": "hark-vm", "status": "done", "receipt": "4 rows · ::notice title=run_doe::node=hark-vm gen=13 ran=4 left=0 rows=50 data_sha=9ce0e8b"}
