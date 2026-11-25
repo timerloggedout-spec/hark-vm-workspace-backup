@@ -997,3 +997,9 @@
 {"ts_utc": "2026-11-25T21:18:12Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "4 rows · ::notice title=run_doe::node=hark-vm gen=13 ran=4 left=0 rows=50 data_sha=eb2d395", "duration_s": 0}
 {"ts_utc": "2026-11-25T21:18:30Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "3 rows · ::notice title=run_doe::node=hark-vm gen=13 ran=3 left=0 rows=400 data_sha=eb2d395", "duration_s": 0}
 {"ts_utc": "2026-11-25T21:18:41Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "8 rows ·   warnings.warn(", "duration_s": 0}
+{"ts_utc": "2026-11-25T22:16:38Z", "epoch": 1795644998, "job": "matrice-validate", "sha": "ee941f21", "rc": 0, "tail": "# validate: 122 concepts · 170 labels · 14 mappings · 0 problem(s)", "duration_s": 0.1}
+{"ts_utc": "2026-11-25T22:16:38Z", "epoch": 1795644998, "job": "temporal-import-smoke", "sha": "ee941f21", "rc": 0, "tail": "OK", "duration_s": 0.2}
+{"ts_utc": "2026-11-25T22:16:40Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=14 ran=0 left=0 rows=50 data_sha=ee941f2", "duration_s": 0}
+{"ts_utc": "2026-11-25T22:16:43Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=14 ran=0 left=0 rows=400 data_sha=ee941f2", "duration_s": 0}
+{"ts_utc": "2026-11-25T22:16:46Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=14 ran=0 left=0 rows=71 data_sha=ee941f2", "duration_s": 0}
+{"ts_utc": "2026-11-25T22:16:48Z", "job": "clf-doe:live-2-prlane-tuning", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=14 ran=0 left=0 rows=945 data_sha=ee941f2", "duration_s": 0}
