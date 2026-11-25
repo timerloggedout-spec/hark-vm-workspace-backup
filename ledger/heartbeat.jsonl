@@ -144,3 +144,4 @@
 {"ts_utc": "2026-11-25T11:16:17Z", "node": "hark-vm", "cpu": 2, "status": "live", "drained": 0, "refs": 1}
 {"ts_utc": "2026-11-25T12:19:07Z", "node": "hark-vm", "cpu": 2, "status": "live", "drained": 0, "refs": 1}
 {"ts_utc": "2026-11-25T13:17:06Z", "node": "hark-vm", "cpu": 2, "status": "live", "drained": 0, "refs": 1}
+{"ts_utc": "2026-11-25T14:17:02Z", "node": "hark-vm", "cpu": 2, "status": "live", "drained": 0, "refs": 1}
