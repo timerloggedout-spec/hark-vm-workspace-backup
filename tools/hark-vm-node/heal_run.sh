@@ -12,7 +12,7 @@ if [ ! -f "$D/$S" ]; then
 fi
 # watchdog: fly-hark-runner liveness (continuous leg) ⇒ re-arm when ∄ in_progress ∨ queued
 if [ "$S" = "fly_watch.py" ]; then
-  N=$(for st in in_progress queued; do curl -s "https://api.github.com/repos/timerloggedout-spec/termux-monorepo/actions/workflows/fly-hark-runner.yml/runs?status=$st&per_page=1" | python3 -c 'import sys,json;print(json.load(sys.stdin).get("total_count",0))' 2>/dev/null || echo 1; done | paste -sd+ | bc)
+  N=$(for st in in_progress queued; do curl -s "https://api.github.com/repos/timerloggedout-spec/termux-monorepo/actions/workflows/fly-hark-runner.yml/runs?status=$st&per_page=1" | python3 -c 'import sys,json;print(json.load(sys.stdin).get("total_count",0))' 2>/dev/null || echo 1; done | python3 -c "import sys;print(sum(int(x) for x in sys.stdin.read().split()))")
   if [ "${N:-1}" = "0" ]; then apicall github workflow_dispatch owner=timerloggedout-spec repo=termux-monorepo workflow_id=fly-hark-runner.yml ref=master >/dev/null 2>&1 && echo "WATCHDOG re-armed fly-hark-runner" >&2; fi
 fi
 cd /tmp && exec python3 "$D/$S" "$@"
