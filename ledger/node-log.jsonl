@@ -1,3 +1,4 @@
 {"ts_utc": "2026-11-25T10:19:22Z", "node": "hark-vm", "line": "degraded hark-vm clf-doe live-2-prlane-tuning · rc=137 Killed · owner action: none", "refs": "commits f676bbf None 203e62d"}
 {"ts_utc": "2026-11-25T16:19:07Z", "node": "hark-vm", "line": "blocked hark-vm node pass · RuntimeError: Error: HTTP 502; the response above says why.\n · owner action: none", "refs": ""}
 {"ts_utc": "2026-11-26T17:18:16Z", "node": "hark-vm", "line": "degraded hark-vm shadow lead-lag-cadence · verified receipt 9e20386 rc=2 · owner action: none", "refs": "commits 6051460 None e5d9afc"}
+{"ts_utc": "2026-11-26T19:19:56Z", "node": "hark-vm", "line": "live hark-vm shadow lead-lag-cadence · verified receipt cd882235 rc=0 · owner action: none", "refs": "commits c109c90 None ff590bc"}
