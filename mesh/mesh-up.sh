@@ -34,7 +34,8 @@ UsePAM no
 SshdSessionPath $R/usr/lib/openssh/sshd-session
 SshdAuthPath $R/usr/lib/openssh/sshd-auth
 EOF
-pgrep -f "sshd -f sshd_config" >/dev/null || $R/usr/sbin/sshd -f sshd_config -E sshd.log
+# sshd-session needs an open stderr: run the listener in the foreground (-D -e) under timeout.
+pgrep -x sshd >/dev/null || ( timeout "${1:-1100}" $R/usr/sbin/sshd -D -e -f sshd_config </dev/null >>sshd.log 2>&1 & )
 : > pg.log
 timeout "${1:-1100}" $R/usr/bin/ssh -F /dev/null -tt -p 443 -o StrictHostKeyChecking=no \
   -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=30 -o ExitOnForwardFailure=yes \
