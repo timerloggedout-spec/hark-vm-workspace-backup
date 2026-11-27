@@ -8,3 +8,5 @@
 {"ts_utc": "2026-11-27T19:24:15Z", "node": "hark-vm", "line": "live hark-vm shadow matrice-validate · verified receipt c092f504 rc=0 · owner action: none", "refs": "commits 1d19860 None 9ffcdc5"}
 {"ts_utc": "2026-11-27T19:24:15Z", "node": "hark-vm", "line": "live hark-vm shadow temporal-import-smoke · verified receipt c092f504 rc=0 · owner action: none", "refs": "commits 1d19860 None 9ffcdc5"}
 {"ts_utc": "2026-11-27T19:24:15Z", "node": "hark-vm", "line": "live hark-vm shadow lead-lag-cadence · verified receipt c092f504 rc=0 · owner action: none", "refs": "commits 1d19860 None 9ffcdc5"}
+{"ts_utc": "2026-11-27T21:19:31Z", "node": "hark-vm", "line": "degraded hark-vm shadow matrice-validate · verified receipt 6a42c5a rc=2 · owner action: none", "refs": "commits d889aca a428bcd 5204dc9"}
+{"ts_utc": "2026-11-27T21:19:31Z", "node": "hark-vm", "line": "degraded hark-vm shadow temporal-import-smoke · verified receipt 6a42c5a rc=1 · owner action: none", "refs": "commits d889aca a428bcd 5204dc9"}
