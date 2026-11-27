@@ -1207,3 +1207,9 @@
 {"ts_utc": "2026-11-27T21:18:48Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "6 rows · ::notice title=run_doe::node=hark-vm gen=17 ran=6 left=0 rows=50 data_sha=7bca560", "duration_s": 0}
 {"ts_utc": "2026-11-27T21:18:56Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "5 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=5 left=0 rows=400 data_sha=7bca560", "duration_s": 0}
 {"ts_utc": "2026-11-27T21:19:19Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "12 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=12 left=0 rows=71 data_sha=7bca560", "duration_s": 0}
+{"ts_utc": "2026-11-27T22:15:32Z", "epoch": 1795817732, "job": "matrice-validate", "sha": "6a42c5a", "rc": 2, "tail": "python3: can't open file '/workspace/work/hark-vm-node/scripts/linguist/matrice_search.py': [Errno 2] No such file or directory", "duration_s": 0.0}
+{"ts_utc": "2026-11-27T22:15:33Z", "epoch": 1795817733, "job": "temporal-import-smoke", "sha": "6a42c5a", "rc": 1, "tail": "FAILED (errors=1)", "duration_s": 0.1}
+{"ts_utc": "2026-11-27T22:15:35Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=0 left=0 rows=50 data_sha=bdde9fe", "duration_s": 0}
+{"ts_utc": "2026-11-27T22:15:37Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=0 left=0 rows=400 data_sha=bdde9fe", "duration_s": 0}
+{"ts_utc": "2026-11-27T22:15:40Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=0 left=0 rows=71 data_sha=bdde9fe", "duration_s": 0}
+{"ts_utc": "2026-11-27T22:16:54Z", "job": "clf-doe:live-2-prlane-tuning", "sha": "-", "rc": 0, "tail": "12 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=12 left=0 rows=945 data_sha=bdde9fe", "duration_s": 0}
