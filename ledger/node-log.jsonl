@@ -16,3 +16,6 @@
 {"ts_utc": "2026-11-28T04:16:59Z", "node": "hark-vm", "line": "degraded hark-vm shadow temporal-import-smoke · verified receipt f588542 rc=1 · owner action: none", "refs": "commits ad242e5 None 4a57903"}
 {"ts_utc": "2026-11-28T06:17:10Z", "node": "hark-vm", "line": "live hark-vm shadow matrice-validate · verified receipt f6642635 rc=0 · owner action: none", "refs": "commits 4b47438 None 61ccb95"}
 {"ts_utc": "2026-11-28T06:17:10Z", "node": "hark-vm", "line": "live hark-vm shadow temporal-import-smoke · verified receipt f6642635 rc=0 · owner action: none", "refs": "commits 4b47438 None 61ccb95"}
+{"ts_utc": "2026-11-28T11:16:23Z", "node": "hark-vm", "line": "degraded hark-vm shadow matrice-validate · verified receipt 58035f78 rc=2 · owner action: none", "refs": "commits 6e8fa0b None 988611f"}
+{"ts_utc": "2026-11-28T11:16:23Z", "node": "hark-vm", "line": "degraded hark-vm shadow temporal-import-smoke · verified receipt 58035f78 rc=1 · owner action: none", "refs": "commits 6e8fa0b None 988611f"}
+{"ts_utc": "2026-11-28T11:16:23Z", "node": "hark-vm", "line": "degraded hark-vm shadow lead-lag-cadence · verified receipt 58035f78 rc=2 · owner action: none", "refs": "commits 6e8fa0b None 988611f"}
