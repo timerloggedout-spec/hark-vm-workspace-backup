@@ -12,3 +12,5 @@
 {"ts_utc": "2026-11-27T21:19:31Z", "node": "hark-vm", "line": "degraded hark-vm shadow temporal-import-smoke · verified receipt 6a42c5a rc=1 · owner action: none", "refs": "commits d889aca a428bcd 5204dc9"}
 {"ts_utc": "2026-11-27T23:19:19Z", "node": "hark-vm", "line": "live hark-vm shadow matrice-validate · verified receipt 803bd204 rc=0 · owner action: none", "refs": "commits d8f0c79 None 63ed0a4"}
 {"ts_utc": "2026-11-27T23:19:19Z", "node": "hark-vm", "line": "live hark-vm shadow temporal-import-smoke · verified receipt 803bd204 rc=0 · owner action: none", "refs": "commits d8f0c79 None 63ed0a4"}
+{"ts_utc": "2026-11-28T04:16:59Z", "node": "hark-vm", "line": "degraded hark-vm shadow matrice-validate · verified receipt f588542 rc=2 · owner action: none", "refs": "commits ad242e5 None 4a57903"}
+{"ts_utc": "2026-11-28T04:16:59Z", "node": "hark-vm", "line": "degraded hark-vm shadow temporal-import-smoke · verified receipt f588542 rc=1 · owner action: none", "refs": "commits ad242e5 None 4a57903"}
