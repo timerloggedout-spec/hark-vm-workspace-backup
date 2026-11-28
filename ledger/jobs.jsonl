@@ -1244,3 +1244,7 @@
 {"ts_utc": "2026-11-28T06:15:19Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "5 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=5 left=0 rows=400 data_sha=6112627", "duration_s": 0}
 {"ts_utc": "2026-11-28T06:15:35Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "12 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=12 left=0 rows=71 data_sha=6112627", "duration_s": 0}
 {"ts_utc": "2026-11-28T06:16:49Z", "job": "clf-doe:live-2-prlane-tuning", "sha": "-", "rc": 0, "tail": "12 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=12 left=0 rows=945 data_sha=6112627", "duration_s": 0}
+{"ts_utc": "2026-11-28T08:17:15Z", "job": "clf-doe:tier1-classifiers-steward", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=19 ran=0 left=0 rows=71 data_sha=9a35bbb", "duration_s": 0}
+{"ts_utc": "2026-11-28T08:17:19Z", "job": "clf-doe:live-2-prlane-tuning", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=19 ran=0 left=0 rows=945 data_sha=9a35bbb", "duration_s": 0}
+{"ts_utc": "2026-11-28T08:17:21Z", "job": "clf-doe:nc-1-notation-compliance", "sha": "-", "rc": 0, "tail": "0 rows · ::notice title=run_doe::node=hark-vm gen=18 ran=0 left=0 rows=50 data_sha=58cf7cf", "duration_s": 0}
+{"ts_utc": "2026-11-28T08:17:28Z", "job": "clf-doe:bf-1-backfill-methods", "sha": "-", "rc": 0, "tail": "3 rows · ::notice title=run_doe::node=hark-vm gen=19 ran=3 left=0 rows=400 data_sha=9a35bbb", "duration_s": 0}
